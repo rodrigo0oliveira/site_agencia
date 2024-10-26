@@ -1,0 +1,31 @@
+/*mudar cards*/
+@media screen and (max-width:900px){ 
+    .card{
+        width: 100%;
+    }
+}
+/*ocultar menu*/
+@media screen and (max-width:600px){
+    .links{
+        display: none;
+    }
+    .logo{
+        text-align: center;
+    }
+    .nav{
+        position: relative;
+    }
+    .header{
+        padding-top: 50px;
+    }
+    .apresentacion{
+        flex: 100%;
+        text-align: center;
+        margin: 5%;
+    }
+    .img{
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+    }
+}
